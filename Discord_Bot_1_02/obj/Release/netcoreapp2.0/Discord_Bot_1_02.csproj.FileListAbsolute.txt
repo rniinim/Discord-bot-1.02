@@ -1,0 +1,11 @@
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\bin\Release\netcoreapp2.0\Discord_Bot_1_02.deps.json
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\bin\Release\netcoreapp2.0\Discord_Bot_1_02.runtimeconfig.json
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\bin\Release\netcoreapp2.0\Discord_Bot_1_02.runtimeconfig.dev.json
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\bin\Release\netcoreapp2.0\Discord_Bot_1_02.dll
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\bin\Release\netcoreapp2.0\Discord_Bot_1_02.pdb
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\obj\Release\netcoreapp2.0\Discord_Bot_1_02.csprojResolveAssemblyReference.cache
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\obj\Release\netcoreapp2.0\Discord_Bot_1_02.csproj.CoreCompileInputs.cache
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\obj\Release\netcoreapp2.0\Discord_Bot_1_02.AssemblyInfoInputs.cache
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\obj\Release\netcoreapp2.0\Discord_Bot_1_02.AssemblyInfo.cs
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\obj\Release\netcoreapp2.0\Discord_Bot_1_02.dll
+D:\Ohjelmointi\C#\Projektit\Projects\Discord_Bot_1_02\Discord_Bot_1_02\obj\Release\netcoreapp2.0\Discord_Bot_1_02.pdb
