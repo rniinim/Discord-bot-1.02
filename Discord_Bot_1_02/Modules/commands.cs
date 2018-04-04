@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 
 namespace Discord_Bot_1_02.Modules
 {
-    public class tandere : ModuleBase<SocketCommandContext>
+    /// <summary>
+    /// All commands after b! prefix
+    /// </summary>
+    public class Commands : ModuleBase<SocketCommandContext>
     {
         string[] apuArray = new string[]
            {
@@ -250,17 +253,44 @@ namespace Discord_Bot_1_02.Modules
                 "https://i.imgur.com/WoLwr7P.jpg"
             };
         Random rng = new Random();
-        
+
+        [Command("ping")]
+        public async Task PingAsync()
+        {
+            await BasicEmbedBuilder("Hello", Color.DarkBlue);
+            
+        }
+
+        [Command("arvostelu")]
+        public async Task arvosteluAsync()
+        {
+            EmbedBuilder builder = new EmbedBuilder();
+            EmbedFooterBuilder footerBuilder = new EmbedFooterBuilder();
+            builder.WithTitle(builder.Author.Name).WithColor(Color.DarkBlue);
+
+            await ReplyAsync("", false, builder.Build());
+        }
+
+        [Command("roulette")]
+        public async Task RouletteAsync()
+        {
+            await ReplyAsync(rng.Next(1, 7) == 6 ? "Boom" : "Click");
+        }
 
         [Command("tandere")]
         public async Task TandereAsync()
         {
             EmbedBuilder builder = new EmbedBuilder();
-
             builder.WithTitle(":page_facing_up: | **Score**: 999  |  Rating: **Explicit**\nhttps://www.reddit.com/r/Taneli_irl/").WithImageUrl(taneliMemes[rng.Next(taneliMemes.Length - 1)])
                 .WithColor(Color.DarkBlue);
             
             await ReplyAsync("", false, builder.Build());
+        }
+
+        [Command("alfa")]
+        public async Task Alfa()
+        {
+            await ReplyAsync("<@160410433952546816> on 5/5 alfa");
         }
 
         [Command("apu")]
@@ -270,6 +300,12 @@ namespace Discord_Bot_1_02.Modules
             await ReplyAsync(apuArray[rng.Next(apuArray.Length - 1)]);
         }
 
-        
+
+        public async Task BasicEmbedBuilder(string message, Color color)
+        {
+            EmbedBuilder builder = new EmbedBuilder();
+            builder.WithTitle(message).WithColor(color);
+            await ReplyAsync("", false, builder.Build());
+        }
     }
 }
